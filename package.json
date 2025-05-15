@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lage build",
+    "lint": "lage lint",
+    "test": "lage test"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "lage": "^1.6.0",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "yarn@4.9.1"
+}
